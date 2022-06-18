@@ -1,0 +1,36 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.content__container{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; 
+    padding: 50px;
+}
+
+.heading__title{
+    text-align: center;
+}
+
+.main__content{
+    font-size: 100px;
+    text-align: center;
+}
+
+.block:not(:last-child), .box:not(:last-child), .breadcrumb:not(:last-child), .content:not(:last-child), .level:not(:last-child), .message:not(:last-child), .notification:not(:last-child), .pagination:not(:last-child), .progress:not(:last-child), .subtitle:not(:last-child), .table-container:not(:last-child), .table:not(:last-child), .tabs:not(:last-child), .title:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.grid__container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.action__btn{
+    letter-spacing: 3px;
+}
